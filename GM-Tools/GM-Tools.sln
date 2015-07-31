@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GM-Tools", "GM-Tools.csproj", "{178A5A9A-38E6-432F-8738-A29FCCF6CD6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "..\Controls\Controls.csproj", "{936C9887-7EC7-41ED-94ED-D899FE547C70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gm-Tool.Engien", "Gm-Tool.Engien\Gm-Tool.Engien.csproj", "{9FFBD9C2-B4C9-4458-809E-C8CFF7904AA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{178A5A9A-38E6-432F-8738-A29FCCF6CD6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178A5A9A-38E6-432F-8738-A29FCCF6CD6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178A5A9A-38E6-432F-8738-A29FCCF6CD6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178A5A9A-38E6-432F-8738-A29FCCF6CD6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936C9887-7EC7-41ED-94ED-D899FE547C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936C9887-7EC7-41ED-94ED-D899FE547C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936C9887-7EC7-41ED-94ED-D899FE547C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936C9887-7EC7-41ED-94ED-D899FE547C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFBD9C2-B4C9-4458-809E-C8CFF7904AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFBD9C2-B4C9-4458-809E-C8CFF7904AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFBD9C2-B4C9-4458-809E-C8CFF7904AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFBD9C2-B4C9-4458-809E-C8CFF7904AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

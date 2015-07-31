@@ -1,0 +1,11 @@
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\bin\Debug\GM-Tools.exe.config
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\bin\Debug\GM-Tools.exe
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\bin\Debug\GM-Tools.pdb
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\obj\Debug\GM-Tools.csprojResolveAssemblyReference.cache
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\obj\Debug\GM_Tools.Properties.Resources.resources
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\obj\Debug\GM-Tools.csproj.GenerateResource.Cache
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\obj\Debug\GM-Tools.exe
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\obj\Debug\GM-Tools.pdb
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\obj\Debug\GM_Tools.GMWindow.resources
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\bin\Debug\Controls.dll
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\bin\Debug\Controls.pdb

@@ -1,0 +1,6 @@
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\Gm-Tool.Engien\obj\Debug\Gm-Tool.Engien.csprojResolveAssemblyReference.cache
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\Gm-Tool.Engien\bin\Debug\Gm-Tool.Engien.dll.config
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\Gm-Tool.Engien\bin\Debug\Gm-Tool.Engien.dll
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\Gm-Tool.Engien\bin\Debug\Gm-Tool.Engien.pdb
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\Gm-Tool.Engien\obj\Debug\Gm-Tool.Engien.dll
+C:\Users\Ossi\Documents\GitHub\GM-Tools\GM-Tools\Gm-Tool.Engien\obj\Debug\Gm-Tool.Engien.pdb

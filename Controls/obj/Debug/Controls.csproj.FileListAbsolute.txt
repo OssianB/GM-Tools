@@ -1,0 +1,10 @@
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\bin\Debug\Controls.dll
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\bin\Debug\Controls.pdb
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.csprojResolveAssemblyReference.cache
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.BaseControl.resources
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.MenuBar.GMTabout.resources
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.MenuBar.menuBar.resources
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.csproj.GenerateResource.Cache
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.dll
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.pdb
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.Tools.Options.Options.resources
