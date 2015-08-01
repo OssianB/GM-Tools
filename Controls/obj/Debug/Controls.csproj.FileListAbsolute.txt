@@ -8,3 +8,4 @@ C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.csproj.Gener
 C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.dll
 C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.pdb
 C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.Tools.Options.Options.resources
+C:\Users\Ossi\Documents\GitHub\GM-Tools\Controls\obj\Debug\Controls.MenuBar.GagetWindow.resources

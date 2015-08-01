@@ -48,6 +48,12 @@
     <Compile Include="BaseControl.Designer.cs">
       <DependentUpon>BaseControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuBar\GagetWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuBar\GagetWindow.Designer.cs">
+      <DependentUpon>GagetWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tools\CoinsAndGold\CoinConverter.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -84,6 +90,9 @@
   <ItemGroup>
     <EmbeddedResource Include="BaseControl.resx">
       <DependentUpon>BaseControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuBar\GagetWindow.resx">
+      <DependentUpon>GagetWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuBar\GMTabout.resx">
       <DependentUpon>GMTabout.cs</DependentUpon>

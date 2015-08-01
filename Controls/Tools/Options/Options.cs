@@ -14,6 +14,9 @@ namespace Controls.Tools.Options
     public partial class Options : UserControl 
     {
         public event EventHandler CloseOptions;
+        public event EventHandler OnCloseOptions;
+        public event EventHandler UpWindow;
+        public event EventHandler DownWindow;
 
         public Options()
         {
@@ -27,10 +30,51 @@ namespace Controls.Tools.Options
 
         private void lblBtnX_click(object sender, EventArgs e)
         {
-            Font mfont = new Font("Areial", 8, FontStyle.Regular);
-            lblbtnX.Font = mfont;
-            EventHandler handler = CloseOptions;
-            handler(this, e);
+           // CloseOptions(this, e);
         }
+
+        public void lblBtnX_Font(Font f)
+        {
+            lblbtnX.Font = f;
+        }
+
+        private void lblBtn_MouseDown(object sender, MouseEventArgs e)
+        {
+            OnCloseOptions(this, e);
+        }
+
+        private void lblBtn_MouseUp(object sender, MouseEventArgs e)
+        {
+            CloseOptions(this, e);
+        }
+
+        private void lblBtn_MouseHover(object sender, EventArgs e)
+        {
+            Label lb = (Label)sender;
+            lb.BackColor = Color.LightGray;
+        }
+
+        private void lblBtn_MouseLeave(object sender, EventArgs e)
+        {
+            Label lb = (Label)sender;
+            lb.BackColor = Color.Transparent;
+        }
+
+        private void lblBtnUp_Click(object sender, EventArgs e)
+        {
+            if (lblBtnUpDown.Text == "↑")
+            {
+                lblBtnUpDown.Text = "↓";
+                UpWindow(this, e);
+            }
+            else
+            {
+                lblBtnUpDown.Text = "↑";
+                DownWindow(this, e);
+            }
+
+            
+        }
+
     }
 }
