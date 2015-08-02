@@ -13,6 +13,7 @@ namespace Controls.Tools.Options
 {
     public partial class Options : UserControl 
     {
+       
         public event EventHandler CloseOptions;
         public event EventHandler OnCloseOptions;
         public event EventHandler UpWindow;
@@ -21,6 +22,8 @@ namespace Controls.Tools.Options
         public Options()
         {
             InitializeComponent();
+           
+            lblTime.Text = "0";
         }
 
         public void  SelectedTab(int tab)
@@ -30,12 +33,17 @@ namespace Controls.Tools.Options
 
         private void lblBtnX_click(object sender, EventArgs e)
         {
-           // CloseOptions(this, e);
+           //CloseOptions(this, e);
         }
 
         public void lblBtnX_Font(Font f)
         {
             lblbtnX.Font = f;
+        }
+
+        public void SetlblBtnUpDown(string upDown)
+        {
+            lblBtnUpDown.Text = upDown;
         }
 
         private void lblBtn_MouseDown(object sender, MouseEventArgs e)
@@ -76,5 +84,23 @@ namespace Controls.Tools.Options
             
         }
 
+        private int timer = 0;
+
+        private void lblBtnM_MouseDown(object sender, MouseEventArgs e)
+        {
+            timer1.Start();
+            timer1.Interval = 1;
+        }
+
+        private void lblBtnM_MouseUp(object sender, MouseEventArgs e)
+        {
+            timer1.Stop();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer += 1;
+            lblTime.Text = timer.ToString();
+        }
     }
 }

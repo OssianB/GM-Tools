@@ -33,6 +33,7 @@ namespace Controls.MenuBar
             Font ff = new Font("Arial", 8, FontStyle.Bold);
             opt.lblBtnX_Font(ff);
             this.ParentForm.Controls.Add(opt);
+            opt.SetlblBtnUpDown("↑");
             opt.CloseOptions += Opt_CloseOptions;
             opt.OnCloseOptions += Opt_OnCloseOptions;
             opt.UpWindow += Opt_UpWindow;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.OptionsTabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -36,9 +37,14 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.lblbtnX = new System.Windows.Forms.Label();
             this.gbxBorder = new System.Windows.Forms.GroupBox();
-            this.lblBtnUpDown = new System.Windows.Forms.Label();
             this.lblBtnM = new System.Windows.Forms.Label();
+            this.lblBtnUpDown = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblTime = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.OptionsTabControl.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             this.gbxBorder.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +76,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.lblTime);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -90,6 +97,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.textBox1);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -135,6 +143,19 @@
             this.gbxBorder.TabIndex = 2;
             this.gbxBorder.TabStop = false;
             // 
+            // lblBtnM
+            // 
+            this.lblBtnM.Location = new System.Drawing.Point(620, 1);
+            this.lblBtnM.Name = "lblBtnM";
+            this.lblBtnM.Size = new System.Drawing.Size(15, 15);
+            this.lblBtnM.TabIndex = 3;
+            this.lblBtnM.Text = "M";
+            this.lblBtnM.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblBtnM.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lblBtnM_MouseDown);
+            this.lblBtnM.MouseLeave += new System.EventHandler(this.lblBtn_MouseLeave);
+            this.lblBtnM.MouseHover += new System.EventHandler(this.lblBtn_MouseHover);
+            this.lblBtnM.MouseUp += new System.Windows.Forms.MouseEventHandler(this.lblBtnM_MouseUp);
+            // 
             // lblBtnUpDown
             // 
             this.lblBtnUpDown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -148,16 +169,25 @@
             this.lblBtnUpDown.MouseLeave += new System.EventHandler(this.lblBtn_MouseLeave);
             this.lblBtnUpDown.MouseHover += new System.EventHandler(this.lblBtn_MouseHover);
             // 
-            // lblBtnM
+            // textBox1
             // 
-            this.lblBtnM.Location = new System.Drawing.Point(620, 1);
-            this.lblBtnM.Name = "lblBtnM";
-            this.lblBtnM.Size = new System.Drawing.Size(15, 15);
-            this.lblBtnM.TabIndex = 3;
-            this.lblBtnM.Text = "M";
-            this.lblBtnM.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblBtnM.MouseLeave += new System.EventHandler(this.lblBtn_MouseLeave);
-            this.lblBtnM.MouseHover += new System.EventHandler(this.lblBtn_MouseHover);
+            this.textBox1.Location = new System.Drawing.Point(211, 169);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Location = new System.Drawing.Point(210, 142);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(40, 13);
+            this.lblTime.TabIndex = 0;
+            this.lblTime.Text = "lblTime";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Options
             // 
@@ -168,6 +198,10 @@
             this.Name = "Options";
             this.Size = new System.Drawing.Size(672, 451);
             this.OptionsTabControl.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             this.gbxBorder.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -185,5 +219,8 @@
         private System.Windows.Forms.GroupBox gbxBorder;
         private System.Windows.Forms.Label lblBtnUpDown;
         private System.Windows.Forms.Label lblBtnM;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblTime;
+        private System.Windows.Forms.Timer timer1;
     }
 }
