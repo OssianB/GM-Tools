@@ -54,6 +54,12 @@
     <Compile Include="MenuBar\GagetWindow.Designer.cs">
       <DependentUpon>GagetWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tools\Claculator\CalculatorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tools\Claculator\CalculatorControl.Designer.cs">
+      <DependentUpon>CalculatorControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tools\CoinsAndGold\CoinConverter.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuBar\menuBar.resx">
       <DependentUpon>menuBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Claculator\CalculatorControl.resx">
+      <DependentUpon>CalculatorControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tools\Options\Options.resx">
       <DependentUpon>Options.cs</DependentUpon>

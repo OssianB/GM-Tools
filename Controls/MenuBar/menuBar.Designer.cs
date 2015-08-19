@@ -98,7 +98,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -123,31 +123,32 @@
             // newPlayerToolStripMenuItem
             // 
             this.newPlayerToolStripMenuItem.Name = "newPlayerToolStripMenuItem";
-            this.newPlayerToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.newPlayerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.newPlayerToolStripMenuItem.Text = "&New Player";
+            this.newPlayerToolStripMenuItem.Click += new System.EventHandler(this.newPlayerToolStripMenuItem_Click);
             // 
             // loadPlayerToolStripMenuItem
             // 
             this.loadPlayerToolStripMenuItem.Name = "loadPlayerToolStripMenuItem";
-            this.loadPlayerToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.loadPlayerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.loadPlayerToolStripMenuItem.Text = "&Load Player";
             // 
             // savePlayerToolStripMenuItem
             // 
             this.savePlayerToolStripMenuItem.Name = "savePlayerToolStripMenuItem";
-            this.savePlayerToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.savePlayerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.savePlayerToolStripMenuItem.Text = "&Save Player";
             // 
             // randomEncuntersToolStripMenuItem
             // 
             this.randomEncuntersToolStripMenuItem.Name = "randomEncuntersToolStripMenuItem";
-            this.randomEncuntersToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.randomEncuntersToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.randomEncuntersToolStripMenuItem.Text = "&Random Event";
             // 
             // lootStuffToolStripMenuItem
             // 
             this.lootStuffToolStripMenuItem.Name = "lootStuffToolStripMenuItem";
-            this.lootStuffToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.lootStuffToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.lootStuffToolStripMenuItem.Text = "Loot && St&uff";
             // 
             // optionsToolStripMenuItem
