@@ -85,6 +85,7 @@
             this.Name = "GagetWindow";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "GagetWindow";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GagetWindow_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.GagetWindow_MouseMove);

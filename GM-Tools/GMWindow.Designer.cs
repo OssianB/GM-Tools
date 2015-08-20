@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.menuBar1 = new Controls.MenuBar.menuBar();
+            this.menuBar = new Controls.MenuBar.menuBar();
             this.SuspendLayout();
             // 
             // menuBar1
@@ -40,13 +41,22 @@
             this.menuBar1.Size = new System.Drawing.Size(1120, 24);
             this.menuBar1.TabIndex = 2;
             // 
+            // menuBar
+            // 
+            this.menuBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.menuBar.Location = new System.Drawing.Point(2, 1);
+            this.menuBar.Name = "menuBar";
+            this.menuBar.Size = new System.Drawing.Size(1114, 24);
+            this.menuBar.TabIndex = 1;
+            // 
             // GMWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(1118, 623);
-            this.Controls.Add(this.menuBar1);
+            this.Controls.Add(this.menuBar);
             this.IsMdiContainer = true;
             this.Name = "GMWindow";
             this.Text = "GB Tools";
@@ -56,6 +66,7 @@
 
         #endregion
         private Controls.MenuBar.menuBar menuBar1;
+        private Controls.MenuBar.menuBar menuBar;
     }
 }
 

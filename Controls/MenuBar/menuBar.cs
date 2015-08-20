@@ -90,8 +90,8 @@ namespace Controls.MenuBar
 
         private void newPlayerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             gwForm = new GagetWindow();
+            gwForm.Location = new Point(8, 28);
             gwForm.MdiParent = this.ParentForm;
             gwForm.OnCloseGW += GwForm_OnCloseGW;
             gwForm.CloseGW += GwForm_CloseGW;

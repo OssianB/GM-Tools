@@ -123,5 +123,6 @@ namespace Controls.MenuBar
         }
 
         public Point downPoint = Point.Empty;
+
     }
 }
