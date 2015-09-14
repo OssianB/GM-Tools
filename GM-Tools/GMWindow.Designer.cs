@@ -45,9 +45,9 @@
             // 
             this.menuBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.menuBar.Location = new System.Drawing.Point(2, 1);
+            this.menuBar.Location = new System.Drawing.Point(0, 0);
             this.menuBar.Name = "menuBar";
-            this.menuBar.Size = new System.Drawing.Size(1114, 24);
+            this.menuBar.Size = new System.Drawing.Size(1118, 24);
             this.menuBar.TabIndex = 1;
             // 
             // GMWindow

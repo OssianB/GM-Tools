@@ -41,6 +41,8 @@
             this.savePlayerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.randomEncuntersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lootStuffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.miscToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.generalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -59,6 +61,7 @@
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
             this.playersToolStripMenuItem,
+            this.miscToolStripMenuItem,
             this.optionsToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -81,24 +84,24 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.openToolStripMenuItem.Text = "&Open";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.saveToolStripMenuItem.Text = "&Save";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(100, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -125,7 +128,7 @@
             this.newPlayerToolStripMenuItem.Name = "newPlayerToolStripMenuItem";
             this.newPlayerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.newPlayerToolStripMenuItem.Text = "&New Player";
-            this.newPlayerToolStripMenuItem.Click += new System.EventHandler(this.newPlayerToolStripMenuItem_Click);
+            this.newPlayerToolStripMenuItem.Click += new System.EventHandler(this.GwForm_Open);
             // 
             // loadPlayerToolStripMenuItem
             // 
@@ -151,6 +154,21 @@
             this.lootStuffToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.lootStuffToolStripMenuItem.Text = "Loot && St&uff";
             // 
+            // miscToolStripMenuItem
+            // 
+            this.miscToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.calculatorToolStripMenuItem});
+            this.miscToolStripMenuItem.Name = "miscToolStripMenuItem";
+            this.miscToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.miscToolStripMenuItem.Text = "&Misc";
+            // 
+            // calculatorToolStripMenuItem
+            // 
+            this.calculatorToolStripMenuItem.Name = "calculatorToolStripMenuItem";
+            this.calculatorToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.calculatorToolStripMenuItem.Text = "Coin Calculator";
+            this.calculatorToolStripMenuItem.Click += new System.EventHandler(this.GwForm_Open);
+            // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -169,7 +187,7 @@
             this.generalToolStripMenuItem.Name = "generalToolStripMenuItem";
             this.generalToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.generalToolStripMenuItem.Text = "&General";
-            this.generalToolStripMenuItem.Click += new System.EventHandler(this.generalToolStripMenuItem_Click);
+            this.generalToolStripMenuItem.Click += new System.EventHandler(this.GwForm_Open);
             // 
             // toolStripSeparator2
             // 
@@ -253,5 +271,7 @@
         private System.Windows.Forms.ToolStripMenuItem savePlayerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lootStuffToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem playersToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem miscToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calculatorToolStripMenuItem;
     }
 }

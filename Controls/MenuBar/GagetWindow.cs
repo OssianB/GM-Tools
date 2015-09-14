@@ -20,15 +20,15 @@ namespace Controls.MenuBar
         public event EventHandler MoveGW;
 
         Tools.Options.Options opt = new Tools.Options.Options();
+        CoinConverter.CoinConverter CC = new CoinConverter.CoinConverter();
 
-        private Boolean MoveMode = false;
 
         public GagetWindow()
         {
             InitializeComponent();
         }
 
-        private UserControl UControl;
+        public UserControl UControl;
 
         public GagetWindow(UserControl UC, int val)
             : this()
@@ -43,6 +43,26 @@ namespace Controls.MenuBar
             //UControl.SetBounds(0, 0, UControl.Width, UControl.Height);
             //UControl.Dock = DockStyle.Fill;
             
+        }
+
+        public GagetWindow(string senderText)
+            : this()
+        {
+            gbxGagetWindowBorder.Text = senderText;
+
+            if (senderText == "&General")
+            {
+                UControl = opt;
+                this.Controls.Add(UControl);
+                UControl.SetBounds(0, 0, UControl.Size.Width, UControl.Size.Height);
+            }
+            else if (senderText == "Coin Calculator")
+            {
+                UControl = CC;
+            }
+
+            UControl.Parent = gbxGagetWindowBorder;
+            UControl.Dock = DockStyle.Fill;
         }
 
         public GagetWindow(UserControl UC)
@@ -93,7 +113,7 @@ namespace Controls.MenuBar
 
         private void GagetWindow_MouseDown(object sender, MouseEventArgs e)
         {
-            if (e.Button != MouseButtons.Right)
+            if (e.Button != MouseButtons.Left)
             {
                 return;
             }
@@ -115,7 +135,7 @@ namespace Controls.MenuBar
 
         private void GagetWindow_MouseUp(object sender, MouseEventArgs e)
         {
-            if (e.Button != MouseButtons.Right)
+            if (e.Button != MouseButtons.Left)
             {
                 return;
             }

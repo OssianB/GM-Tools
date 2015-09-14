@@ -109,6 +109,9 @@
     <EmbeddedResource Include="Tools\Claculator\CalculatorControl.resx">
       <DependentUpon>CalculatorControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CoinsAndGold\CoinConverter.resx">
+      <DependentUpon>CoinConverter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tools\Options\Options.resx">
       <DependentUpon>Options.cs</DependentUpon>
     </EmbeddedResource>

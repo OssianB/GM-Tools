@@ -65,7 +65,7 @@ namespace Controls.Tools.Options
             if (this.txtTimer.InvokeRequired)
             {
                 SetTimeCallback d = new SetTimeCallback(SetTime);
-                this.Invoke(d, new object[] { txt });
+                Invoke(d, new object[] { txt });
             }
             else
             {

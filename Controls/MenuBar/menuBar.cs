@@ -95,8 +95,31 @@ namespace Controls.MenuBar
             gwForm.MdiParent = this.ParentForm;
             gwForm.OnCloseGW += GwForm_OnCloseGW;
             gwForm.CloseGW += GwForm_CloseGW;
+            gwForm.UpGW += GwForm_UpGW;
 
             gwForm.Show();
+        }
+
+        private void GwForm_Open(object sender, EventArgs e)
+        {
+            ToolStripItem MI = (ToolStripItem) sender;
+            gwForm = new GagetWindow(MI.Text);
+            gwForm.Location = new Point(8, 28);
+            gwForm.MdiParent = this.ParentForm;
+
+            gwForm.OnCloseGW += GwForm_OnCloseGW;
+            gwForm.CloseGW += GwForm_CloseGW;
+            gwForm.UpGW += GwForm_UpGW;
+
+            gwForm.Show();
+        }
+
+        private void GwForm_UpGW(object sender, EventArgs e)
+        {
+            //GagetWindow gg = (GagetWindow)sender;
+            GagetWindow GW = new GagetWindow();//gg.UControl);
+            GW.OnCloseGW += GwForm_OnCloseGW;
+            GW.CloseGW += GwForm_CloseGW;
         }
 
         protected virtual void GwForm_CloseGW(object sender, EventArgs e)
@@ -110,5 +133,6 @@ namespace Controls.MenuBar
             Font ff = new Font("Arial", 8, FontStyle.Regular);
             gwForm.ButtonOptions(ff,gwForm.lblbtnX);
         }
+
     }
 }
